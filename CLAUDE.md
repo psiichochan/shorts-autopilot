@@ -8,7 +8,7 @@ Python process with no server and no database. Durable state is JSON/CSV in `dat
 | `cosmic` (default) | `config.yaml` | the user's space channel (`channel.name`, `channel.youtube_channel_id`) | space facts via everyday scale comparisons | 2/day, 20:00 / 23:30 IST |
 | `clips` | `channels/clips.yaml` | the user's true-stories channel | real, fact-checked history stories (`writer.template: story`) | 2/day, 20:00 / 23:30 IST |
 
-**The person running this repo is usually non-technical** (see START_HERE.md). Explain in plain words, take one
+**The person running this repo is usually non-technical** (see README.md). Explain in plain words, take one
 step at a time, never ask them to paste secrets into chat (keys go in `.env` or GitHub Secrets, which they paste
 themselves), and confirm before anything public (uploads, deletions).
 
@@ -280,4 +280,4 @@ channel will leak into another, or tests will write to real data. Paths derived 
 - `docs/PIPELINE_ARCHITECTURE.md`: agents, stages, lifecycle, safety properties, file map.
 - `docs/MULTI_CHANNEL.md`: isolation guarantees, the channel-2 history, and the rights/compliance design.
 - `docs/COST_CONTROL_AND_OPERATIONS.md`: runbook. Other `docs/*.md` cover strategy, risks and monetization.
-- `README.md` / `START_HERE.md`: the overview and the beginner setup guide (the user follows START_HERE.md with you).
+- `README.md`: the overview and the beginner setup guide (the user follows README.md with you). `START_HERE.md` just points to it.
